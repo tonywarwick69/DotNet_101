@@ -21,7 +21,7 @@ namespace Login_App
         {
             if (userName != null)
             {
-                lblHello.Text = "Hello "+ userName;
+                lblHello.Text = "Hello " + userName;
             }
 
         }
@@ -32,6 +32,11 @@ namespace Login_App
         }
 
         private void lblHello_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void loginControl1_CheckedChanged(object sender, EventArgs e)
         {
 
         }

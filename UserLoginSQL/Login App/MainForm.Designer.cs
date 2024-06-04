@@ -30,6 +30,7 @@
         {
             lblWelcome = new Label();
             lblHello = new Label();
+            loginControl1 = new LoginControl.LoginControl();
             SuspendLayout();
             // 
             // lblWelcome
@@ -56,11 +57,23 @@
             lblHello.Text = "Hello User";
             lblHello.Click += lblHello_Click;
             // 
+            // loginControl1
+            // 
+            loginControl1.AutoSize = true;
+            loginControl1.Location = new Point(194, 292);
+            loginControl1.MinimumSize = new Size(45, 22);
+            loginControl1.Name = "loginControl1";
+            loginControl1.Size = new Size(99, 22);
+            loginControl1.TabIndex = 2;
+            loginControl1.Text = "loginControl1";
+            loginControl1.UseVisualStyleBackColor = true;
+            // 
             // frmMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(loginControl1);
             Controls.Add(lblHello);
             Controls.Add(lblWelcome);
             Name = "frmMain";
@@ -73,5 +86,6 @@
 
         private Label lblWelcome;
         private Label lblHello;
+        private LoginControl.LoginControl loginControl1;
     }
 }
