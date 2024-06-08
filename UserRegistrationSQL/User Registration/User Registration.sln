@@ -8,7 +8,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B2F9F8A2-AC8A-4BF1-9CD4-0ABEC19C3B34}"
 	ProjectSection(SolutionItems) = preProject
 		App.config = App.config
-		DBContext.cs = DBContext.cs
 		User.cs = User.cs
 	EndProjectSection
 EndProject

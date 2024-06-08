@@ -4,7 +4,7 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement.ListView;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 using System.Net;
 using System.Windows.Forms;
-
+using Login_App;
 namespace User_Registration
  
 {
@@ -40,7 +40,7 @@ namespace User_Registration
             else if(txtPassword.Text == txtPassword2.Text)
             {
                 //using SqlClient lib
-                
+                /*
                 using (SqlConnection sQLConnection = new SqlConnection(connectionConfig))
                 {
                     sQLConnection.Open();
@@ -56,9 +56,9 @@ namespace User_Registration
                     MessageBox.Show("registration is successful!");
                     clear();
                 }
-                
+                */
                 //Using entity framework
-                /*
+                
                 using (var context = new AppContext())
                 {
                     //var hashedPassword = BCrypt.Net.BCrypt.HashPassword(txtPassword.Text.Trim());
@@ -79,7 +79,7 @@ namespace User_Registration
                     MessageBox.Show("Registration is successful!");
                     clear();
                 }
-                */
+                
             } else if(txtPassword.Text != txtPassword2.Text)
             {
                 MessageBox.Show("Password and Confirm password didn't match. Please input again.");
