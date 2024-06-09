@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="6b98c318-7b0c-459f-9279-476b0572abfc" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/SelfHostingWCF/CalculatorService/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="CalculatorService.wsdl" MetadataType="Wsdl" ID="63f8e292-ae6e-4ee0-b848-0abbacf903e8" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SelfHostingWCF/CalculatorService/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="447b8177-e3a7-45ac-a46c-2bd0c0957293" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SelfHostingWCF/CalculatorService/?disco" />
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="282e16f2-c20c-4101-a4d4-8d5616966d97" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SelfHostingWCF/CalculatorService/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="aedb5244-d3a7-477c-a247-13383a533512" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/SelfHostingWCF/CalculatorService/?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
